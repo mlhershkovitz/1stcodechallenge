@@ -14,7 +14,7 @@ console.log(generateCount);
     let element = $('.rectangle'); //so js knows what element to append to the dom
     element.append(`<div class="generate">
     <p>${generateCount}</p>
-    <button id="swapButton">Swap</button> 
-    <button id="deleteButton">Delete</button>    
+    <button class="swapButton">Swap</button> 
+    <button class="deleteButton">Delete</button>    
     </div>`);
 }
